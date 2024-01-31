@@ -18,7 +18,6 @@ export default class Home extends React.PureComponent {
   render() {
     return (
       <div className="index-page">
-        <div className="status-bar" />
         {/* ======= Start Gallery Section =======  */}
         <div className="container gallery">
           <div className="row gallery-box">
@@ -85,7 +84,6 @@ export default class Home extends React.PureComponent {
           </div>
           {/* ======= End Action Section =======  */}
         </div>
-        <div className="container native-bar" />
       </div>
     )
   }

@@ -11,7 +11,6 @@ export default class Signup extends React.PureComponent {
     render() {
         return (
             <div className="signup-page">
-                <div className="status-bar" />
                 {/* ======= Start Back Button Section =======  */}
                 <div className="container back-icon signup-container">
                     <div className="frame-20">
@@ -159,7 +158,6 @@ export default class Signup extends React.PureComponent {
                     </button>
                 </div>
                 {/* ======= End Social Button Section =======  */}
-                <div className="container native-bar signup-container" />
             </div>
         )
     }

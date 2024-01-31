@@ -9,7 +9,6 @@ export default class Login extends React.PureComponent {
     render() {
         return (
             <div className="login-page">
-                <div className="status-bar" />
                 {/* ======= Start Back Button Section =======  */}
                 <div className="container back-icon login-container">
                     <div className="frame-20">
@@ -146,7 +145,6 @@ export default class Login extends React.PureComponent {
                     </button>
                 </div>
                 {/* ======= End Social Button Section =======  */}
-                <div className="container native-bar login-container" />
             </div>
         );
     }

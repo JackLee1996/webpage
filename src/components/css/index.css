@@ -43,10 +43,6 @@ button {
     align-items: center;
 }
 
-.status-bar {
-    height: 44px;
-}
-
 .gallery {
     margin-top: 7px;
     height: 508px;
@@ -189,6 +185,4 @@ button {
     line-height: 19.2px;
     /* 150% */
 }
-.native-bar{
-    width: 34px;
-}
+
