@@ -4,7 +4,7 @@ import {
   Route,
   Switch,
   withRouter,
-  BrowserRouter
+  HashRouter
 } from 'react-router-dom';
 
 import './index.css';
@@ -52,9 +52,9 @@ const Routes = withRouter(({ location, history }) => {
 export default class App extends React.PureComponent {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Routes />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
