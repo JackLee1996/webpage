@@ -1,0 +1,140 @@
+p {
+    margin: 0px;
+}
+
+button {
+    border: 0px;
+}
+
+.signup-page {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.signup-container {
+    padding: 0px;
+}
+
+.status-bar {
+    height: 44px;
+}
+
+.back-button {
+    background: transparent;
+}
+
+.back-icon {
+    display: flex;
+    padding: 15px 16px 17px 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-20 {
+    display: flex;
+    height: 24px;
+    padding: 3px 323px 1px 0px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.top-text {
+    padding: 16px 16px 40px 16px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.top-text-title {
+    color: var(--Foundation-Blue-Dark, #1A1E25);
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: 0.48px;
+}
+
+.top-text-text {
+    color: var(--nav-gray, #7D7F88);
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+}
+
+.form-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.frame-23 .frame-24 .frame-25 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.username-label .password-label .phone-label {
+    color: var(--Foundation-Blue-Dark, #1A1E25);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.phone {
+    width: 343px;
+    display: flex;
+    padding: 12px 90px 12px 18px;
+    align-items: center;
+    border-radius: 81px;
+    border: 0.8px solid #E3E3E7;
+    background: #F2F2F3;
+    color: var(--Foundation-Blue-Dark, #1A1E25);
+    font-family: "SF Pro Display";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.phone:focus {
+    outline: 0.8px solid var(--green-gradient, #917AFD);
+    background: #F1F1FE;
+}
+
+.phone::placeholder {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj48cmVjdCB4PSIuNSIgeT0iLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjExLjUiIHN0cm9rZT0iI0YwRjBGMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjExIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTIzIDEyYTExIDExIDAgMSAwLTIyIDBoMjJ6IiBmaWxsPSIjRkYxNzE3Ii8+PC9zdmc+") no-repeat,
+    url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMTMuMjggNS45NjdsLTQuMzQ2IDQuMzQ2YTEuMzI0IDEuMzI0IDAgMCAxLTEuODY3IDBMMi43MiA1Ljk2NyIgc3Ryb2tlPSIjMUExRTI1IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==") no-repeat;
+    color: var(--nav-gray, #7D7F88);
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.1px;
+    padding-left: 29px;
+}

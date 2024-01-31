@@ -1,0 +1,194 @@
+p {
+    margin: 0px;
+}
+
+a{
+    text-decoration:none;
+}
+
+button {
+    border: 0px;
+}
+
+@media (min-width: 576px){
+    .container{
+        max-width: 576px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 992px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1400px){
+    .container{
+        max-width: 1400px;
+    }
+}
+
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-bar {
+    height: 44px;
+}
+
+.gallery {
+    margin-top: 7px;
+    height: 508px;
+}
+
+.gallery-photo {
+    padding-top: 9px;
+    padding-left: 9px;
+}
+
+.overlay {
+    position: absolute;
+    flex-shrink: 0;
+    width: 100%;
+    height: 508px;
+    background: linear-gradient(180deg, rgba(251, 251, 251, 0.00) 53.59%, #FCFCFC 87.94%);
+    z-index: 1;
+}
+
+.column {
+    padding: 0px;
+}
+
+.gallery-box {
+    position: relative;
+    padding: 0px 6px;
+}
+
+.leading-content {
+    display: inline-flex;
+    padding: 0px 16px 16px 16px;
+    gap: 32px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    color: var(--Foundation-Blue-Dark, #1A1E25);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.text {
+    color: var(--nav-gray, #7D7F88);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.actions {
+    position: relative;
+}
+
+.log-in {
+    display: flex;
+    width: 343px;
+    padding: 13px 0px;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: var(--green-gradient, linear-gradient(136deg, #917AFD 2.61%, #6246EA 96.58%));
+}
+
+.sign-up {
+    display: flex;
+    width: 343px;
+    padding: 13px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+    border: 0.8px solid #E3E3E7;
+    background: var(--Neutral-Gray-0, #FFF);
+}
+
+.mid-btn {
+    position: absolute;
+    display: flex;
+    top: 24px;
+    left: 34.3px;
+    width: 274.4px;
+    height: 40px;
+    padding: 10.4px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 24px;
+    opacity: 0.28;
+    background: var(--green-gradient, linear-gradient(136deg, #917AFD 2.61%, #6246EA 96.58%));
+    filter: blur(23px);
+}
+
+.signup-btn-text {
+    color: var(--Neutral-Gray-600, #475569);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.208px;
+}
+
+.login-btn-text {
+    color: var(--Neutral-Gray-0, #FFF);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.mid-btn-text {
+    width: 44px;
+    height: 19.2px;
+    flex-shrink: 0;
+    color: var(--Neutral-Gray-0, #FFF);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.2px;
+    /* 150% */
+}
+.native-bar{
+    width: 34px;
+}
