@@ -74,7 +74,7 @@ export default class Signup extends React.PureComponent {
                                 </label>
                                 <input
                                     className="phone"
-                                    type="number"
+                                    type="tel"
                                     id="phone"
                                     name="phone"
                                     placeholder="Enter your phone number"
